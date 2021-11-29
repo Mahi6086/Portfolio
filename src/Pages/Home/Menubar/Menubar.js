@@ -1,15 +1,15 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import logo from "./img1.svg";
 const Menubar = () => {
   return (
-    <div className="">
+    <div style={{ backgroundColor: "#212529" }}>
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light">
-          <div className="container-fluid">
+          <div className="container">
             <NavLink to="/home" className="nav-link">
-              <div className="">
-                <img className="img-fluid w-75" src="" alt="" />
+              <div className="" style={{ width: "40px" }}>
+                <img className="img-fluid " src={logo} alt="" />
               </div>
             </NavLink>
             <button
@@ -27,33 +27,34 @@ const Menubar = () => {
               <div className="navbar-nav ms-auto fs-6 ">
                 <NavLink
                   to="/products"
-                  className="nav-link text-dark fw-bolder"
-                  activeStyle={{
-                    color: "#A99577",
-                  }}
+                  className="nav-link text-white-50  fw-bolder"
                 >
-                  SHOP
+                  PROJETCS
                 </NavLink>
-
-                <NavLink to="/about" className="nav-link text-dark fw-bolder">
+                <NavLink
+                  to="/resume"
+                  className="nav-link text-white-50  fw-bolder"
+                >
+                  RESUME
+                </NavLink>
+                <NavLink
+                  to="/blog"
+                  className="nav-link text-white-50  fw-bolder me-2"
+                >
+                  BLOG
+                </NavLink>
+                <NavLink
+                  to="/about"
+                  className="nav-link text-white-50 fw-bolder"
+                >
                   ABOUT
                 </NavLink>
 
                 <NavLink
                   to="/contact"
-                  className="nav-link text-dark fw-bolder "
+                  className="nav-link text-white-50 fw-bolder "
                 >
                   CONTACT
-                </NavLink>
-
-                <NavLink
-                  to="/dashBoard"
-                  className="nav-link text-dark fw-bolder  me-2"
-                >
-                  <span className="">
-                    <i className="fas fa-user-shield me-1"></i>
-                  </span>
-                  DASHBOARD
                 </NavLink>
               </div>
             </div>

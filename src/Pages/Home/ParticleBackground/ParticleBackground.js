@@ -33,7 +33,37 @@ function CenterTitle() {
   return (
     <div id="text_div center_all">
       <div className="center_all">
-        <h1 className="customer-subTitle">Hey, I am Mahi</h1>
+        <div className="text-start">
+          <h1
+            className="customer-subTitle"
+            style={{
+              fontFamily: "Cinzel Decorative",
+              fontFamily: "DM Sans",
+
+              fontFamily: "Quantico",
+            }}
+          >
+            Hi,
+          </h1>
+          <h1
+            className="customer-subTitle"
+            style={{
+              fontFamily: "Cinzel Decorative",
+              fontFamily: "DM Sans",
+
+              fontFamily: "Quantico",
+            }}
+          >
+            I'm{" "}
+            <span
+              style={{
+                color: "#F50057",
+              }}
+            >
+              Mahi Hasan
+            </span>
+          </h1>
+        </div>
       </div>
     </div>
   );

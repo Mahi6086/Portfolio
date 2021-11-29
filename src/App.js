@@ -3,11 +3,13 @@ import "./App.css";
 import Particles from "react-particles-js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home/Home";
+import Menubar from "./Pages/Home/Menubar/Menubar";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Menubar></Menubar>
         <Switch>
           <Route exact path="/">
             <Home></Home>
