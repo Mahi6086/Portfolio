@@ -88,6 +88,54 @@ function CenterTitle() {
               }}
             />
           </div>
+          <div
+            className="d-flex align-items-center "
+            style={{ marginTop: "70px" }}
+          >
+            <span style={{ fontSize: "30px" }}>
+              <a
+                style={{ color: "#F50057" }}
+                href="https://www.facebook.com/mahin.mahi.142"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </span>
+            <span style={{ fontSize: "30px" }}>
+              <a
+                style={{ color: "#F50057", marginLeft: "20px" }}
+                href="https://github.com/Mahi6086"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </span>
+            <span style={{ fontSize: "30px" }}>
+              <a
+                style={{ color: "#F50057", marginLeft: "20px" }}
+                href="https://twitter.com/Mahihas58002718"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </span>
+            <span style={{ fontSize: "30px" }}>
+              <a
+                style={{ color: "#F50057", marginLeft: "20px" }}
+                href="https://www.linkedin.com/in/mahi-hasan-3b8490216/"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </span>
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-danger">
+              <a
+                className="resume"
+                href="https://drive.google.com/file/d/1uim576JTjGW6KTe99XkLVnq0WPlADMGc/view?usp=sharing"
+                download
+              >
+                Downloaded Resume
+              </a>
+            </button>
+          </div>
         </div>
       </div>
     </div>
