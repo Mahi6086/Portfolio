@@ -1,17 +1,19 @@
 import React from "react";
 import Particles from "react-particles-js";
+
+import Typewriter from "typewriter-effect";
 import "./ParticleBackground.css";
 const ParticleBackground = () => {
   return (
-    <div>
+    <div style={{ backgroundColor: "#141414", color: "#F50057" }}>
       <Particles
         params={{
           particles: {
             number: {
-              value: 200,
+              value: 210,
             },
             size: {
-              value: 3,
+              value: 1,
             },
           },
           interactivity: {
@@ -41,6 +43,8 @@ function CenterTitle() {
               fontFamily: "DM Sans",
 
               fontFamily: "Quantico",
+              fontSize: "3.5rem",
+              fontWeight: "bolder",
             }}
           >
             Hi,
@@ -50,8 +54,10 @@ function CenterTitle() {
             style={{
               fontFamily: "Cinzel Decorative",
               fontFamily: "DM Sans",
-
               fontFamily: "Quantico",
+              fontFamily: "Quantico",
+              fontSize: "3.5rem",
+              fontWeight: "bolder",
             }}
           >
             I'm{" "}
@@ -63,6 +69,25 @@ function CenterTitle() {
               Mahi Hasan
             </span>
           </h1>
+          <div
+            style={{
+              fontFamily: "Cinzel Decorative",
+              fontFamily: "DM Sans",
+              fontFamily: "Quantico",
+              fontFamily: "Quantico",
+              fontSize: "2.5rem",
+              fontWeight: "bolder",
+              position: "fixed",
+            }}
+          >
+            <Typewriter
+              options={{
+                strings: ["Frontend Developer", "React Developer"],
+                autoStart: true,
+                loop: true,
+              }}
+            />
+          </div>
         </div>
       </div>
     </div>
