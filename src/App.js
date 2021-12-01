@@ -7,6 +7,7 @@ import Menubar from "./Pages/Home/Menubar/Menubar";
 import Home from "./Pages/Home/Home/Home";
 import AboutMe from "./Pages/Home/AboutMe/AboutMe";
 import Blogss from "./Pages/Home/Blogss/Blogss";
+import Contact from "./Pages/Home/Contact/Contact";
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
           </Route>
           <Route path="/home/blog">
             <Blogss></Blogss>
+          </Route>
+          <Route path="/home/contact">
+            <Contact></Contact>
           </Route>
         </Switch>
       </Router>

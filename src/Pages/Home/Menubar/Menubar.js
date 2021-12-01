@@ -32,13 +32,7 @@ const Menubar = () => {
                   PROJETCS
                 </NavLink>
                 <NavLink
-                  to="/resume"
-                  className="nav-link text-white-50  fw-bolder"
-                >
-                  RESUME
-                </NavLink>
-                <NavLink
-                  to="/blog"
+                  to="/home/blog"
                   className="nav-link text-white-50  fw-bolder me-2"
                 >
                   BLOG
@@ -51,7 +45,7 @@ const Menubar = () => {
                 </NavLink>
 
                 <NavLink
-                  to="/contact"
+                  to="home/contact"
                   className="nav-link text-white-50 fw-bolder "
                 >
                   CONTACT
