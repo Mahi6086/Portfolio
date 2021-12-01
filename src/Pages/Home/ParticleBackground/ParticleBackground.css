@@ -22,3 +22,45 @@
 .resume:hover {
   color: white;
 }
+
+/* #logo span {
+  display: inline-block;
+}
+
+#web {
+  text-align: center;
+  margin-right: 25px;
+} */
+
+/* ANIMATIONS
+============================================================================= */
+
+/* logo */
+/* .ww {
+  animation-delay: 0.1s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+.we {
+  animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+.wb {
+  animation-delay: 0.3s;
+  -moz-animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+
+@media (min-width: 507px) and (max-width: 991px) {
+  #web {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 506px) {
+  #web {
+    font-size: 20px;
+    margin: 0 10px 0 0;
+  }
+} */

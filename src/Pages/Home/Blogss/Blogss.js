@@ -10,11 +10,7 @@ const Blogss = () => {
   }, []);
   return (
     <div className="aboutme">
-      <div
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
-      >
+      <div data-aos="fade-up">
         <h1
           style={{
             color: "#c71c58",
@@ -45,17 +41,21 @@ const Blogss = () => {
                 >
                   <img src={blog.image} className="card-img-top" alt="..." />
                   <div className="card-body">
-                    <h4 className="card-title">{blog.name}</h4>
+                    <h4 className="card-title text-start">{blog.name}</h4>
                     <h4
-                      className="card-title"
+                      className="card-title text-start"
                       style={{
                         borderBottom: "2px solid #c71c58",
                         color: "#CBD1D1",
+                        width: "52%",
                       }}
                     >
                       {blog.time}
                     </h4>
-                    <p className="card-text" style={{ color: "#CBD1D1" }}>
+                    <p
+                      className="card-text text-start"
+                      style={{ color: "#CBD1D1" }}
+                    >
                       {blog.description}...
                       <Link to="/home">
                         <button

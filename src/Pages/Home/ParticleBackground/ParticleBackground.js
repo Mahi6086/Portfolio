@@ -47,7 +47,20 @@ function CenterTitle() {
               fontWeight: "bolder",
             }}
           >
-            Hi,
+            Hi ,
+            {/*  <div id="demo-one">
+              <div className="container">
+                <div id="bouncing_title" className="row text-start">
+                  <div id="logo">
+                    <span id="web">
+                      <span className="ww animated bounceInDown">H</span>
+                      <span className="we animated bounceInDown">i</span>
+                      <span className="wb animated bounceInDown">,</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div> */}
           </h1>
           <h1
             className="customer-subTitle"
