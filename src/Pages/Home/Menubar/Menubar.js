@@ -44,7 +44,7 @@ const Menubar = () => {
                   BLOG
                 </NavLink>
                 <NavLink
-                  to="/about"
+                  to="/home/about"
                   className="nav-link text-white-50 fw-bolder"
                 >
                   ABOUT
