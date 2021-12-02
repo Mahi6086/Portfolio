@@ -13,7 +13,7 @@ const AboutMe = () => {
   }, []);
   return (
     <div className="aboutme">
-      <div className="container ">
+      <div id="about" className="container ">
         <div data-aos="fade-up">
           <h1
             id="about"
@@ -49,11 +49,7 @@ const AboutMe = () => {
             <img className="w-75" src={img2} alt="" />
           </div>
 
-          <div
-            data-aos="fade-left"
-            className="col-12 col-md-6"
-            style={{ marginTop: "170px" }}
-          >
+          <div data-aos="fade-left" className="col-12 col-md-6 introduce">
             <h1
               className="text-start"
               style={{

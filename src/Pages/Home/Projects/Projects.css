@@ -5,7 +5,8 @@
 .dialz {
   color: #c71c58;
   background-color: #100d19;
-  width: 23%;
+  font-size: 1.8rem;
+  width: 21%;
   font-family: "Cinzel Decorative";
   font-family: "DM Sans";
   font-family: "Quantico";
@@ -14,7 +15,8 @@
 .tevily {
   color: #c71c58;
   background-color: #100d19;
-  width: 24%;
+  font-size: 1.8rem;
+  width: 22%;
   font-weight: bold;
   font-family: "Cinzel Decorative";
   font-family: "DM Sans";
@@ -23,12 +25,31 @@
 .mediciva {
   color: #c71c58;
   background-color: #100d19;
-  width: 34%;
+  font-size: 1.8rem;
+  width: 31%;
   font-weight: bold;
   font-family: "Cinzel Decorative";
   font-family: "DM Sans";
   font-family: "Quantico";
 }
+.details {
+  color: #c71c58;
+  background-color: #100d19;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  font-family: "Cinzel Decorative";
+  font-family: "DM Sans";
+  font-family: "Quantico";
+}
+.details1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 @media screen and (max-width: 767px) {
   .projects {
     width: 100%;

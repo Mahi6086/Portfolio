@@ -36,8 +36,10 @@ function CenterTitle() {
     <div id="text_div center_all">
       <div className="center_all">
         <div className="text-start">
-          <h1 className="Title">Hi ,</h1>
-          <h1 className="Title">
+          <h1 data-aos="fade-up-right" className="Title">
+            Hi ,
+          </h1>
+          <h1 data-aos="fade-up-left" className="Title">
             I'm{" "}
             <span
               style={{

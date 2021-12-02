@@ -10,7 +10,7 @@ const Blogss = () => {
   }, []);
   return (
     <div className="aboutme">
-      <div>
+      <div id="blog">
         <h1
           data-aos="fade-up"
           className="heading"

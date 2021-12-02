@@ -3,11 +3,14 @@ import watch from "./wristwatch-animate.svg";
 import tour from "./dubai-animate.svg";
 import healthcare from "./nursing-home-animate.svg";
 import "./Projects.css";
+import Details from "../Details/Details";
+
 const Projects = () => {
   return (
     <div className="aboutme" style={{ height: "100%" }}>
       <div data-aos="fade-up">
         <h1
+          id="projects"
           className="heading"
           style={{
             color: "#c71c58",
@@ -42,6 +45,18 @@ const Projects = () => {
                 Dialz
               </h2>
             </div>
+            <div className="details1">
+              <h6
+                className="details rounded rounded-pill"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Details
+              </h6>
+
+              <h6 className="details rounded-pill">Livesite</h6>
+              <h6 className="details rounded-pill">Code</h6>
+            </div>
           </div>
         </div>
         <div
@@ -57,6 +72,12 @@ const Projects = () => {
                 Tevily
               </h2>
             </div>
+            <div className="details1">
+              <h6 className="details rounded rounded-pill">Details</h6>
+
+              <h6 className="details rounded-pill">Livesite</h6>
+              <h6 className="details rounded-pill">Code</h6>
+            </div>
           </div>
         </div>
         <div
@@ -71,6 +92,18 @@ const Projects = () => {
               <h2 className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-2 mediciva ">
                 Mediciva
               </h2>
+            </div>
+            <div className="details1">
+              <h6
+                className="details rounded rounded-pill"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Details
+              </h6>
+
+              <h6 className="details rounded-pill">Livesite</h6>
+              <h6 className="details rounded-pill">Code</h6>
             </div>
           </div>
         </div>

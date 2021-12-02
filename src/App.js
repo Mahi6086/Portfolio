@@ -22,7 +22,7 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/about">
+          {/*  <Route path="/about">
             <AboutMe></AboutMe>
           </Route>
           <Route path="/blog">
@@ -33,7 +33,7 @@ function App() {
           </Route>
           <Route path="/projects">
             <Projects></Projects>
-          </Route>
+          </Route> */}
         </Switch>
       </Router>
     </div>

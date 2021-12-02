@@ -9,8 +9,14 @@
   font-size: 3rem;
   font-weight: bolder;
 }
+.introduce {
+  margin-top: 170px;
+}
 @media screen and (max-width: 767px) {
   .intro {
     font-size: 2rem;
+  }
+  .introduce {
+    margin-top: 60px;
   }
 }
