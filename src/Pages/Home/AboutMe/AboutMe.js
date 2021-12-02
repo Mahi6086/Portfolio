@@ -16,13 +16,14 @@ const AboutMe = () => {
       <div className="container ">
         <div data-aos="fade-up">
           <h1
+            id="about"
+            className="intro"
             style={{
               color: "#c71c58",
               fontFamily: "Cinzel Decorative",
               fontFamily: "DM Sans",
               fontFamily: "Quantico",
-              fontSize: "3rem",
-              fontWeight: "bolder",
+
               paddingBottom: "15px",
             }}
           >

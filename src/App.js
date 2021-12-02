@@ -8,6 +8,7 @@ import Home from "./Pages/Home/Home/Home";
 import AboutMe from "./Pages/Home/AboutMe/AboutMe";
 import Blogss from "./Pages/Home/Blogss/Blogss";
 import Contact from "./Pages/Home/Contact/Contact";
+import Projects from "./Pages/Home/Projects/Projects";
 
 function App() {
   return (
@@ -21,14 +22,17 @@ function App() {
           <Route path="/home">
             <Home></Home>
           </Route>
-          <Route path="/home/about">
+          <Route path="/about">
             <AboutMe></AboutMe>
           </Route>
-          <Route path="/home/blog">
+          <Route path="/blog">
             <Blogss></Blogss>
           </Route>
-          <Route path="/home/contact">
+          <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="/projects">
+            <Projects></Projects>
           </Route>
         </Switch>
       </Router>

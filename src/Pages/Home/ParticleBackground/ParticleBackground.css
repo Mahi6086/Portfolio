@@ -1,3 +1,105 @@
+button {
+  margin: 0 0 8px;
+
+  letter-spacing: 1px;
+  height: 3em;
+  width: 12em;
+  font-size: 1.05em;
+  border: 1px solid #f50057;
+  border-radius: 5px;
+  transition: all 0.4s ease-out;
+  font-family: "Cinzel Decorative";
+  font-family: "DM Sans";
+  font-family: "Quantico";
+}
+.btn-3 {
+  text-decoration: none;
+  font-family: "Cinzel Decorative";
+  font-family: "DM Sans";
+  font-family: "Quantico";
+  color: #f50057;
+}
+.btn-3:hover {
+  color: white;
+}
+
+.btn-2 {
+  position: relative;
+  z-index: 1;
+  background: white;
+  color: white;
+  font-weight: bold;
+}
+
+.btn-2::before {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 55%;
+  background: black;
+  top: 0;
+  left: 0;
+  border-radius: 5px;
+  z-index: -1;
+  transition: all 0.3s ease-out;
+}
+
+.btn-2::after {
+  content: " ";
+  position: absolute;
+  height: 100%;
+  width: 55%;
+  right: 0;
+  top: 0;
+  background: black;
+  border-radius: 5px;
+  z-index: -1;
+  transition: all 0.3s ease-out;
+}
+
+.btn-2:hover:before {
+  width: 0;
+}
+
+.btn-2:hover:after {
+  width: 0;
+}
+
+.btn-2:hover {
+  cursor: pointer;
+  color: #f50057;
+  font-weight: bold;
+}
+.Title {
+  font-family: "Cinzel Decorative";
+  font-family: "DM Sans";
+  font-family: "Quantico";
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+.Sub-Title {
+  font-family: "Cinzel Decorative";
+  font-family: "DM Sans";
+  font-family: "Quantico";
+  font-size: 2.5rem;
+  font-weight: bolder;
+  position: fixed;
+}
+.facebook {
+  font-size: 30px;
+}
+.twitter {
+  font-size: 30px;
+}
+.linkedin {
+  font-size: 30px;
+}
+.github {
+  font-size: 30px;
+}
+.social-media {
+  margin-top: 70px;
+}
 #text_div {
   position: absolute;
   top: 0;
@@ -15,52 +117,39 @@
   position: absolute;
   color: white;
 }
-.resume {
-  text-decoration: none;
-  color: #f50057;
-}
-.resume:hover {
-  color: white;
-}
-
-/* #logo span {
-  display: inline-block;
-}
-
-#web {
-  text-align: center;
-  margin-right: 25px;
-} */
-
-/* ANIMATIONS
-============================================================================= */
-
-/* logo */
-/* .ww {
-  animation-delay: 0.1s;
-  -moz-animation-delay: 0.2s;
-  -webkit-animation-delay: 0.2s;
-}
-.we {
-  animation-delay: 0.2s;
-  -moz-animation-delay: 0.2s;
-  -webkit-animation-delay: 0.2s;
-}
-.wb {
-  animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-}
-
-@media (min-width: 507px) and (max-width: 991px) {
-  #web {
-    font-size: 30px;
+@media screen and (max-width: 767px) {
+  #text_dev {
+    position: absolute;
   }
-}
-
-@media (max-width: 506px) {
-  #web {
+  .center_all {
+    position: relative;
+    left: 90%;
+  }
+  button {
+    height: 2em;
+    width: 11em;
+  }
+  .Title {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  .Sub-Title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .facebook {
     font-size: 20px;
-    margin: 0 10px 0 0;
   }
-} */
+  .twitter {
+    font-size: 20px;
+  }
+  .linkedin {
+    font-size: 20px;
+  }
+  .github {
+    font-size: 20px;
+  }
+  .social-media {
+    margin-top: 50px;
+  }
+}

@@ -2,18 +2,19 @@ import React from "react";
 import watch from "./wristwatch-animate.svg";
 import tour from "./dubai-animate.svg";
 import healthcare from "./nursing-home-animate.svg";
+import "./Projects.css";
 const Projects = () => {
   return (
-    <div className="aboutme">
+    <div className="aboutme" style={{ height: "100%" }}>
       <div data-aos="fade-up">
         <h1
+          className="heading"
           style={{
             color: "#c71c58",
             fontFamily: "Cinzel Decorative",
             fontFamily: "DM Sans",
             fontFamily: "Quantico",
-            fontSize: "3rem",
-            fontWeight: "bolder",
+
             paddingBottom: "60px",
           }}
         >
@@ -27,7 +28,7 @@ const Projects = () => {
         </h1>
       </div>
 
-      <div className="row row-cols-1 row-cols-md-3 g-4 ps-5 pe-5">
+      <div className="row row-cols-1 row-cols-md-3 g-4 projects">
         <div
           className="col"
           data-aos="flip-right"
@@ -37,14 +38,7 @@ const Projects = () => {
           <div className="card">
             <img src={watch} className="card-img" alt="..." />
             <div className="card-img-overlay">
-              <h2
-                className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-2 "
-                style={{
-                  color: "#C71C58",
-                  backgroundColor: "#100D19",
-                  width: "18%",
-                }}
-              >
+              <h2 className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-3 dialz">
                 Dialz
               </h2>
             </div>
@@ -59,14 +53,7 @@ const Projects = () => {
           <div className="card">
             <img src={tour} className="card-img" alt="..." />
             <div className="card-img-overlay">
-              <h2
-                className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-2 "
-                style={{
-                  color: "#C71C58",
-                  backgroundColor: "#100D19",
-                  width: "20%",
-                }}
-              >
+              <h2 className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-2 tevily ">
                 Tevily
               </h2>
             </div>
@@ -81,14 +68,7 @@ const Projects = () => {
           <div className="card">
             <img src={healthcare} className="card-img" alt="..." />
             <div className="card-img-overlay">
-              <h2
-                className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-2  "
-                style={{
-                  color: "#C71C58",
-                  backgroundColor: "#100D19",
-                  width: "29%",
-                }}
-              >
+              <h2 className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-2 mediciva ">
                 Mediciva
               </h2>
             </div>

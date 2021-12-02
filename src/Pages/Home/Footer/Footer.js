@@ -3,9 +3,17 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <h4 style={{ color: "#8C8C8C", padding: "25px" }}>
-        Made with <span style={{ color: "#8C8C8C" }}>❤️</span> by Mahi
-      </h4>
+      <h5
+        style={{
+          color: "#8C8C8C",
+          padding: "25px",
+          fontFamily: "Cinzel Decorative",
+          fontFamily: "DM Sans",
+          fontFamily: "Quantico",
+        }}
+      >
+        MADE WITH <span style={{ color: "#8C8C8C" }}>❤️</span> BY MAHI
+      </h5>
     </div>
   );
 };

@@ -5,3 +5,12 @@
 
   /* background-color: #79183a; */
 }
+.intro {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+@media screen and (max-width: 767px) {
+  .intro {
+    font-size: 2rem;
+  }
+}

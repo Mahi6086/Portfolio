@@ -26,26 +26,27 @@ const Menubar = () => {
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav ms-auto fs-6 ">
                 <NavLink
-                  to="/products"
+                  to="/projects"
                   className="nav-link text-white-50  fw-bolder"
                 >
                   PROJETCS
                 </NavLink>
                 <NavLink
-                  to="/home/blog"
+                  to="/blog"
                   className="nav-link text-white-50  fw-bolder me-2"
                 >
                   BLOG
                 </NavLink>
                 <NavLink
-                  to="/home/about"
+                  href="#about"
+                  to="/about"
                   className="nav-link text-white-50 fw-bolder"
                 >
                   ABOUT
                 </NavLink>
 
                 <NavLink
-                  to="home/contact"
+                  to="/contact"
                   className="nav-link text-white-50 fw-bolder "
                 >
                   CONTACT

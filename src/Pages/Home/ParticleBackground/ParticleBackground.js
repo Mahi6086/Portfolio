@@ -36,43 +36,8 @@ function CenterTitle() {
     <div id="text_div center_all">
       <div className="center_all">
         <div className="text-start">
-          <h1
-            className="customer-subTitle"
-            style={{
-              fontFamily: "Cinzel Decorative",
-              fontFamily: "DM Sans",
-
-              fontFamily: "Quantico",
-              fontSize: "3.5rem",
-              fontWeight: "bolder",
-            }}
-          >
-            Hi ,
-            {/*  <div id="demo-one">
-              <div className="container">
-                <div id="bouncing_title" className="row text-start">
-                  <div id="logo">
-                    <span id="web">
-                      <span className="ww animated bounceInDown">H</span>
-                      <span className="we animated bounceInDown">i</span>
-                      <span className="wb animated bounceInDown">,</span>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-          </h1>
-          <h1
-            className="customer-subTitle"
-            style={{
-              fontFamily: "Cinzel Decorative",
-              fontFamily: "DM Sans",
-              fontFamily: "Quantico",
-              fontFamily: "Quantico",
-              fontSize: "3.5rem",
-              fontWeight: "bolder",
-            }}
-          >
+          <h1 className="Title">Hi ,</h1>
+          <h1 className="Title">
             I'm{" "}
             <span
               style={{
@@ -82,17 +47,7 @@ function CenterTitle() {
               Mahi Hasan
             </span>
           </h1>
-          <div
-            style={{
-              fontFamily: "Cinzel Decorative",
-              fontFamily: "DM Sans",
-              fontFamily: "Quantico",
-              fontFamily: "Quantico",
-              fontSize: "2.5rem",
-              fontWeight: "bolder",
-              position: "fixed",
-            }}
-          >
+          <div className="Sub-Title">
             <Typewriter
               options={{
                 strings: ["Frontend Developer", "React Developer"],
@@ -101,11 +56,8 @@ function CenterTitle() {
               }}
             />
           </div>
-          <div
-            className="d-flex align-items-center "
-            style={{ marginTop: "70px" }}
-          >
-            <span style={{ fontSize: "30px" }}>
+          <div className="d-flex align-items-center pb-2 social-media">
+            <span className="facebook">
               <a
                 style={{ color: "#F50057" }}
                 href="https://www.facebook.com/mahin.mahi.142"
@@ -113,7 +65,7 @@ function CenterTitle() {
                 <i className="fab fa-facebook"></i>
               </a>
             </span>
-            <span style={{ fontSize: "30px" }}>
+            <span className="github">
               <a
                 style={{ color: "#F50057", marginLeft: "20px" }}
                 href="https://github.com/Mahi6086"
@@ -121,7 +73,7 @@ function CenterTitle() {
                 <i className="fab fa-github"></i>
               </a>
             </span>
-            <span style={{ fontSize: "30px" }}>
+            <span className="twitter">
               <a
                 style={{ color: "#F50057", marginLeft: "20px" }}
                 href="https://twitter.com/Mahihas58002718"
@@ -129,7 +81,7 @@ function CenterTitle() {
                 <i className="fab fa-twitter"></i>
               </a>
             </span>
-            <span style={{ fontSize: "30px" }}>
+            <span className="linkedin">
               <a
                 style={{ color: "#F50057", marginLeft: "20px" }}
                 href="https://www.linkedin.com/in/mahi-hasan-3b8490216/"
@@ -139,13 +91,13 @@ function CenterTitle() {
             </span>
           </div>
           <div>
-            <button type="button" className="btn btn-outline-danger">
+            <button className="btn-2" style={{ marginRight: "20px" }}>
               <a
-                className="resume"
+                className="btn-3"
                 href="https://drive.google.com/file/d/1uim576JTjGW6KTe99XkLVnq0WPlADMGc/view?usp=sharing"
                 download
               >
-                Downloaded Resume
+                Download Resume
               </a>
             </button>
           </div>

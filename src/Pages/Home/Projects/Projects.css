@@ -1,0 +1,50 @@
+.projects {
+  padding-left: 150px;
+  width: 90%;
+}
+.dialz {
+  color: #c71c58;
+  background-color: #100d19;
+  width: 23%;
+  font-family: "Cinzel Decorative";
+  font-family: "DM Sans";
+  font-family: "Quantico";
+  font-weight: bold;
+}
+.tevily {
+  color: #c71c58;
+  background-color: #100d19;
+  width: 24%;
+  font-weight: bold;
+  font-family: "Cinzel Decorative";
+  font-family: "DM Sans";
+  font-family: "Quantico";
+}
+.mediciva {
+  color: #c71c58;
+  background-color: #100d19;
+  width: 34%;
+  font-weight: bold;
+  font-family: "Cinzel Decorative";
+  font-family: "DM Sans";
+  font-family: "Quantico";
+}
+@media screen and (max-width: 767px) {
+  .projects {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .dialz {
+    width: 28%;
+    font-size: 20px;
+  }
+  .tevily {
+    width: 28%;
+    font-size: 20px;
+  }
+  .mediciva {
+    width: 39%;
+    font-size: 20px;
+  }
+}
