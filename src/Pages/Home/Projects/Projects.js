@@ -3,7 +3,6 @@ import watch from "./wristwatch-animate.svg";
 import tour from "./dubai-animate.svg";
 import healthcare from "./nursing-home-animate.svg";
 import "./Projects.css";
-import Details from "../Details/Details";
 
 const Projects = () => {
   return (
@@ -38,24 +37,38 @@ const Projects = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <div className="card">
+          <div className="card pb-4">
             <img src={watch} className="card-img" alt="..." />
             <div className="card-img-overlay">
               <h2 className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-3 dialz">
                 Dialz
               </h2>
-            </div>
-            <div className="details1">
-              <h6
-                className="details rounded rounded-pill"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Details
-              </h6>
+              <div className="details1">
+                <h6
+                  className="details rounded rounded-pill"
+                  data-bs-toggle="modal"
+                  data-bs-target="#staticBackdrop"
+                >
+                  Details
+                </h6>
 
-              <h6 className="details rounded-pill">Livesite</h6>
-              <h6 className="details rounded-pill">Code</h6>
+                <h6 className="details rounded-pill">
+                  <a
+                    className="anchor"
+                    href="https://niche-products-website.web.app/"
+                  >
+                    Livesite
+                  </a>
+                </h6>
+                <h6 className="details rounded-pill">
+                  <a
+                    className="anchor"
+                    href="https://github.com/Mahi6086/Clock-website-client-site"
+                  >
+                    Code
+                  </a>
+                </h6>
+              </div>
             </div>
           </div>
         </div>
@@ -65,18 +78,32 @@ const Projects = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <div className="card">
+          <div className="card pb-4">
             <img src={tour} className="card-img" alt="..." />
             <div className="card-img-overlay">
               <h2 className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-2 tevily ">
                 Tevily
               </h2>
-            </div>
-            <div className="details1">
-              <h6 className="details rounded rounded-pill">Details</h6>
+              <div className="details1">
+                <h6 className="details rounded rounded-pill">Details</h6>
 
-              <h6 className="details rounded-pill">Livesite</h6>
-              <h6 className="details rounded-pill">Code</h6>
+                <h6 className="details rounded-pill">
+                  <a
+                    className="anchor"
+                    href="https://tourism-website-40a00.web.app/"
+                  >
+                    Livesite
+                  </a>
+                </h6>
+                <h6 className="details rounded-pill">
+                  <a
+                    className="anchor"
+                    href="https://github.com/Mahi6086/tourism-website-client-site"
+                  >
+                    Code
+                  </a>
+                </h6>
+              </div>
             </div>
           </div>
         </div>
@@ -86,24 +113,39 @@ const Projects = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <div className="card">
+          <div className="card pb-4">
             <img src={healthcare} className="card-img" alt="..." />
             <div className="card-img-overlay">
               <h2 className="card-title text-start rounded rounded-pill ps-3 pb-2 pt-1 pe-2 mediciva ">
                 Mediciva
               </h2>
-            </div>
-            <div className="details1">
-              <h6
-                className="details rounded rounded-pill"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
-              >
-                Details
-              </h6>
+              <div className="details1">
+                <h6
+                  className="details rounded rounded-pill"
+                  data-bs-toggle="modal"
+                  data-bs-target="#exampleModal"
+                >
+                  Details
+                </h6>
 
-              <h6 className="details rounded-pill">Livesite</h6>
-              <h6 className="details rounded-pill">Code</h6>
+                <h6 className="details rounded-pill">
+                  <a
+                    className="anchor"
+                    href="https://healthcare-mediciva-website.netlify.app/"
+                  >
+                    Livesite
+                  </a>
+                </h6>
+                <h6 className="details rounded-pill">
+                  {" "}
+                  <a
+                    className="anchor"
+                    href="https://github.com/Mahi6086/health-care-website"
+                  >
+                    Code
+                  </a>
+                </h6>
+              </div>
             </div>
           </div>
         </div>

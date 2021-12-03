@@ -6,6 +6,7 @@ import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import ParticleBackground from "../ParticleBackground/ParticleBackground";
 import Projects from "../Projects/Projects";
+import Skills from "../Skills/Skills";
 
 const Home = () => {
   const particlesInit = (main) => {
@@ -35,7 +36,7 @@ const Home = () => {
             interactivity: {
               events: {
                 onClick: {
-                  enable: true,
+                  enable: false,
                   mode: "push",
                 },
                 onHover: {
@@ -87,7 +88,7 @@ const Home = () => {
                   enable: true,
                   value_area: 800,
                 },
-                value: 45,
+                value: 50,
               },
               opacity: {
                 value: 0.5,
@@ -104,6 +105,7 @@ const Home = () => {
           }}
         />
         <AboutMe></AboutMe>
+        <Skills></Skills>
         <Projects></Projects>
         <Blogss></Blogss>
         <Contact></Contact>

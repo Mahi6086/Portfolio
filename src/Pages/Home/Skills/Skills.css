@@ -1,0 +1,28 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+
+  grid-column-gap: 5px;
+  grid-row-gap: 55px;
+}
+.skill-img {
+  width: 40%;
+  border: 1px solid #c71c58;
+  box-shadow: 5px 5px 20px 2px #c71c58;
+  padding: 8px;
+}
+@media screen and (max-width: 767px) {
+  .skills {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    grid-column-gap: 5px;
+    grid-row-gap: 55px;
+    margin-left: 20px;
+  }
+  .skill-img {
+    width: 70%;
+
+    padding: 8px;
+  }
+}
